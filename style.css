@@ -1,14 +1,17 @@
-/* barra de navegacion */
+.body{
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6f7
+}
 
+/* barra de navegacion */
 .navbar{
   background-color: #f5f6f7;
-  
 }
 
 .navfont{ 
   font-size :2.5rem;
   color: #1b1b32;
-  /* margin: 1rem; */
   text-decoration: none;
 }
 
@@ -25,18 +28,6 @@
   padding: 2rem;
 }
 
-/* Estilos generales */
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-
 .section-oscura{
   color: white;
   background-color: #1b1b32;
@@ -49,6 +40,12 @@ h1 {
 
 .section-titulo{
   font-family: 'Pixelify Sans', cursive;
+  font-size: 4rem;
+  padding: 15px 0;
+}
+
+.section-subtitulo{
+  font-family: 'Pixelify Sans', cursive;
   font-size: 3rem;
   padding: 15px 0;
 }
@@ -58,34 +55,16 @@ h1 {
   font-family: "Markazi Text", serif;
 }
 
-/* Seccion hero */
-.hero{
-  background-color: #f5f6f7;
-  min-height: 450px;
-  text-align: center;
+/* Perfil */
+
+.foto-perfil{
+    width: 20rem;
 }
 
-/* Hero Principal */
-  .hero-principa{
-    padding: 2rem;
-  }
-
-  .hero-principal-image{
-    width: 400px;
-    height: 400px;
-    padding: 2rem;
-  }
-
-  .hero-principal h1 {
-    font-family: 'Pixelify Sans', cursive;
-    font-size: 5rem;
-  }
-
-
-  .hero-principal h2 {
-    font-family: 'Pixelify Sans', cursive;
-    font-size: 3rem;
-  }
+.foto-pc{
+  width: 30rem;
+  height: 25rem;
+}
 
 /* Sobre mi */
 

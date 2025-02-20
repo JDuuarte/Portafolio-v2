@@ -19,25 +19,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Monomakh&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jersey+15&family=Markazi+Text:wght@400..700&family=Monomakh&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
   <!-- Titulo -->
   <title>Juan Duarte | Portafolio</title>
 </head>
 
-<body>
-  <!-- Barra de navegacion -->
-  
-<section class="navbar">
-  <div class="row text-center justify-content-center">
+<body class="container-fluid">
+ 
+<!-- Barra de navegacion -->
+  <section class="navbar text-center justify-content-center ">
 
-    <div class="col">
+  <div class="row d-flex align-items-center ">
+
+    <div class="col-xs-3 col-sm-4 col-md-3 col-lg-4 col-xl-4 col-xxl-4 m-3">
       
           <a class="navfont" href="#sobremi">
             <p >Acerca de Mi</p>
           </a>
     </div>      
 
-    <div class="col">
+    <div class="col-xs-3 col-sm-4 col-md-3 col-lg-4 col-xl-4 col-xxl-4">
           <a class="navfont" href="#estudios">
             <p >Estudios</p>
           </a>
@@ -45,52 +45,76 @@
 
   </div>
 
-</section>
+  </section>
   
+<!-- Perfil -->
+  <section class="justify-content-center text-center">
 
-  <!-- Logo -->
-    <section class="hero align-items-stretch">
-        <div class="hero-principal">
-          <img class="hero-principal-image rounded-circle" src="imagenes/pexels-designecologist-1779487.jpg" alt="Foto de perfil" width="200">
-          <h1 id="sobremi" >Hola Mundo, soy Juan Duarte</h1>
-          <h2>Software Developer in progress </h2>
-        </div>
+    <div class="row">
 
-        <div class="hero-inferior  ">
-          <img src="imagenes/hero-inferior.svg" alt="Logo de tecnologias">
-        </div>
-        </section>
+      <div class="col">
+        <img class="foto-perfil rounded-circle m-4" src="imagenes/perfil.jpg" alt="Foto de perfil">
+      </div>
 
-    <!-- Acerca de mí-->
+    </div>
 
+    <div class="row justify-content-center text-center">
+
+      <div class="col-xs-3 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-6 section-titulo">
+        <h1 class="section-titulo" >Hola Mundo, soy Juan Duarte</h1>
+      </div>
+    </div>
+        
+    <div class="row justify-content-center text-center">
+
+      <div class="col-xs-3 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-6 section-titulo">
+        <h2 class="section-subtitulo">Software Developer in progress </h2>
+      </div>
+    </div>      
+          
+    <div class="row justify-content-center text-center align-items-center">
+      <div class="col-xs-6 col-sm-9 col-md-9 col-lg-9 col-xl-5 col-xxl-6 section-titulo">
+        <img class="foto-pc" src="imagenes/hero-inferior.svg" alt="Logo de tecnologias">
+      </div>
+
+  </section>
+
+<!-- Acerca de mí-->
+  <section id="sobremi">
     <div class="row section-oscura text-center">
         <div class="col">
             <h2 class="section-titulo p-3">Acerca de mí</h2>
 
-                <p class="section-texto p-5">Mi enfoque principal se basa en la programación Frontend, donde aprendí el uso de tecnologías como Html, Css, Bootstrap, Javascript, Python y Sqlite3.
+                <p class="section-texto p-4">Mi enfoque principal se basa en la programación Frontend, donde aprendí el uso de tecnologías como Html, Css, Bootstrap, Javascript, Python y Sqlite3.
                 <br>
                 Actualmente, me encuentro estudiando la Tecnicatura en programación en la UTN. Soy apasionado y autodidacta de la tecnología. Me gustan los desafíos y superarlos, adaptándome a los cambios necesarios para cumplir con mis objetivos. Puedo trabajar también en equipo, aportando mis habilidades de resolución, compromiso y comunicación efectiva.</p>
 
-                <div>
-                    <a href="https://github.com/JDuuarte/Portafolio" class="m-5">
+                <div class="mb-5">
+                    <a href="https://github.com/JDuuarte/Portafolio" class="m-3">
                         <img src="Logos/icons8-github (1).svg" alt="" style="width: 5rem;">
                     </a>
                
-                    <a href="https://www.linkedin.com/in/juan-manuel-duarte-b9a336251/" class="m-5">
+                    <a href="https://www.linkedin.com/in/juan-manuel-duarte-b9a336251/" class="m-3">
                         <img src="Logos/icons8-linkedin.svg" alt="" style="width: 5rem;">
                     </a>
                 </div>
         </div>
  
     </div>
+  </section> 
 
-    <!-- Estudios -->
-    <section id="estudios">
-        <h2 class="section-titulo p-3">Cursos y estudios</h2>
+<!-- Estudios -->
+  <section id="estudios">
+      <div class="row text-center">
+        <div class="col">
+          <h2 class="section-titulo p-3">Cursos y estudios</h2>
+        </div>
+      </div>
+        
 
     <div  class="row section-texto grid justify-content-center text-center">
 
-        <div class="card m-3 border rounded-3" style="width: 18rem;">
+        <div class="card m-3 shadow" style="width: 18rem;">
             <img src="imagenes/plataforma5_logo.jpg" class="img-est m-1 border rounded-3" alt="...">
 
             <div class="card-body">
@@ -114,7 +138,7 @@
             </div>
         </div>
 
-          <div class="card m-3 border rounded-3" style="width: 18rem;">
+        <div class="card m-3 shadow" style="width: 18rem;">
             <img src="imagenes/Talento-tech-logo1.jpg" class="img-est m-1 border rounded-3" alt="...">
 
             <div class="card-body">
@@ -138,7 +162,7 @@
             </div>
           </div>
 
-          <div class="card m-3 border rounded-3" style="width: 18rem;">
+          <div class="card m-3 shadow" style="width: 18rem;">
             <img src="imagenes/Talento-tech-logo1.jpg" class="img-est m-1 border rounded-3" alt="...">
 
             <div class="card-body">
@@ -164,7 +188,7 @@
             </div>
           </div>
 
-          <div class="card m-3 border rounded-3" style="width: 18rem;">
+          <div class="card m-3 shadow" style="width: 18rem;">
             <img src="imagenes/UTN_logo.jpg" class="img-est m-1 border rounded-3" alt="...">
 
             <div class="card-body">
@@ -179,22 +203,17 @@
 
     </div>
 
-    
+  </section>
 
-        </section>
-
-    <!-- Footer -->
-
-    <div class="row section-oscura text-center">
+<!-- Footer -->
+  <section>
+    <div class="row section-oscura text-center mt-5">
         <div class="col">
+            <p class="m-5 ">Todos los derechos reservados 2025</p>
+          </div>
             
-            <div class="col">
-                
-                <p class="m-5 ">Todos los derechos reservados 2025</p>
-            </div>
-            
-        </div>
-        </div>
+      </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
