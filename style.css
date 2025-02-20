@@ -1,0 +1,111 @@
+/* barra de navegacion */
+
+.navbar{
+  background-color: #f5f6f7;
+  
+}
+
+.navfont{ 
+  font-size :2.5rem;
+  color: 1b1b32;
+  margin: 1rem;
+}
+
+.navfont:hover{
+  scale: 1.1;
+  transition: 0.5s;
+  color: orange;
+}
+
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Estilos generales */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.section-oscura{
+  color: white;
+  background-color: #1b1b32;
+}
+
+.section-clara{
+  color: black;
+  background-color: white;
+}
+
+.section-titulo{
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 3rem;
+  padding: 15px 0;
+}
+
+.section-texto{
+  font-size: 1.5rem;
+  font-family: "Markazi Text", serif;
+}
+
+/* Seccion hero */
+.hero{
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+/* Hero Principal */
+  .hero-principa{
+    padding: 2rem;
+  }
+
+  .hero-principal-image{
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+  }
+
+  .hero-principal h1 {
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 5rem;
+  }
+
+
+  .hero-principal h2 {
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 3rem;
+  }
+
+/* Sobre mi */
+
+
+
+/* Estudios */
+
+.img-est{
+  width: auto;
+  height: 200px;
+}
+
+/* Footer  */
+
+
+
+
+@media screen {
+  .hero-inferior img {
+    width: 600px;
+  }
+}
+
+  
