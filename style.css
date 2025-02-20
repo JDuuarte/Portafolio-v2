@@ -7,12 +7,13 @@
 
 .navfont{ 
   font-size :2.5rem;
-  color: 1b1b32;
-  margin: 1rem;
+  color: #1b1b32;
+  /* margin: 1rem; */
+  text-decoration: none;
 }
 
 .navfont:hover{
-  scale: 1.1;
+  scale: 1.2;
   transition: 0.5s;
   color: orange;
 }
